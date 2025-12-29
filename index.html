@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATIVE SPRINKLES</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+<!--google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!--font awesome-->
+<script src="https://kit.fontawesome.com/0fbfd31c14.js" crossorigin="anonymous"></script>
+<body class="text-white">
+
+  <!-- NAVBAR -->
+  <nav class="flex items-center justify-between p-5">
+    <h1 class="text-2xl font-bold">CREATIVE SPRINKLES</h1>
+
+    <!-- Hamburger -->
+    <button id="hamburger" class="md:hidden text-3xl">
+      ☰
+    </button>
+
+    <!-- Menu -->
+    <ul id="menu" class="hidden md:flex space-x-6 text-lg">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" class="hidden md:hidden flex flex-col text-center space-y-4 p-5">
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">
+      CREATIVE SPRINKLES BY BEN 
+      <br>
+      <br>
+      <p class="text-lg max-w-xl">Quality Products You Can Trust
+    </h2>
+    <p class="max-w-xl text-lg">
+      We provide affordable, high-quality items to meet your everyday needs.
+    </p>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">About Our Business</h3>
+    <p class="max-w-3xl mx-auto text-lg">
+      Creative Sprinkles by Ben is dedicated to selling quality products at affordable
+      prices. We value trust, customer satisfaction, and excellence in service.
+      Our products go from women headwear to cake, cupcakes, other baked specialties to liquid soap, tablet soap(for bathing and washing).
+      We also produce car wash, disinfectants, detergent and so on
+      <br>
+      We also offer tech services which include: Copywriting, Virtual Assistant, Email Management, Social Media Marketing and so on.
+
+      Creative Sprinkles is that brand that can do more than you imagied.
+    </p>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 px-6">
+    <h3 class="text-3xl font-bold text-center mb-10">Our Services</h3>
+
+    <div class="grid gap-8 md:grid-cols-3">
+      <!-- Card -->
+      <div class="bg-opacity-50 text-black rounded-xl overflow-hidden shadow-lg">
+        <img src="./headwear.jpg" alt="Product">
+        <div class="p-5">
+          <h4 class="font-bold text-xl mb-2">WOMEN HEADWEAR</h4>
+          <p>Every fold and stitch in the Creativesprinkles collection is done with precision to ensure you feel like royalty.<br>Love the style but want a different color? We can customize any design of your choice to match your specific outfit.
+        Discover the perfect blend of tradition and trend. Our bespoke headpieces are meticulously crafted to ensure you look radiant from every angle.
+<br>
+“Beauty begins the moment you decide to be yourself.” — Featuring the exclusive Creativesprinkles range.</p>
+        </div>
+      </div>
+
+      <div class="bg-opacity-50 text-black rounded-xl overflow-hidden shadow-lg">
+        <img src="./cake.jpg" alt="Product">
+        <div class="p-5">
+          <h4 class="font-bold text-xl mb-2">BAKED PRODUCTS</h4>
+          <p>"Look Good, Feel Good, Eat Well." 🍰👑
+<br>
+Why stop at looking fabulous? Complete your celebration with a Creativesprinkles custom cake. From the crown on your head to the cake on your plate, we bring elegance to every detail of your event.</p>
+        </div>
+      </div>
+
+      <div class="bg-opacity-50 text-black rounded-xl overflow-hidden shadow-lg">
+        <img src="./soaps.jpg" alt="Product">
+        <div class="p-5">
+          <h4 class="font-bold text-xl mb-2">SOAPS</h4>
+          <p>"The Perfect Routine: Clean Clothes, Glowing Skin, and a Stunning Crown." 👑🧼
+
+At Creativesprinkles, we don't just dress you—we care for you. Our new soap collection is here! From our extra-strength washing bars that keep your whites bright, to our moisturizing bathing soaps that pamper your skin, we bring quality to every part of your day.
+          </p>
+        </div>
+      </div>
+
+      <div class="bg-opacity-50 text-black rounded-xl overflow-hidden shadow-lg">
+        <img src="./copywriting-metal-type-blocks-28018911.webp" alt="Product">
+        <div class="p-5">
+          <h4 class="font-bold text-xl mb-2">COPYWRITING SERVICES</h4>
+          <p>We help businesses tell their story in a way that connects and sells. Whether it’s product descriptions, ads, or website content, We write words that make your brand shine, grab attention, and get results — all while keeping it clear and creative.</p>
+        </div>
+      </div>
+
+      <div class="bg-opacity-50 text-black rounded-xl overflow-hidden shadow-lg">
+        <img src="./virtual assistant services.webp" alt="Product">
+        <div class="p-5">
+          <h4 class="font-bold text-xl mb-2">VIRTUAL ASSISTANT SERVICES</h4>
+          <p>Here at creative sprinkles, we also offer virtual assistant services for customers interested.
+            We aim to help you manage your tasks efficiently and effectively.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Contact Us</h3>
+
+    <p class="text-lg "> Email: <a href="mailto:creativesprinkles2006@gmail.com" class="hover:text-blue-500">creativesprinkles2006@gmail.com</a></p>
+    <p class="text-lg"> Phone: <a href="tel:+2348039423270" class="hover:text-blue-500">+234 803 942 3270</a></p>
+
+    <a href="https://wa.me/2348039423270" class="inline-block mt-6 bg-black bg-opacity-40 px-6 py-3 rounded-lg">
+        Get in Touch
+    </a>
+  </section>
+
+  <!--SOCIAL MEDIA LINKS-->
+  <section class="py-10 px-6 text-center">
+    <h3 class="text-2xl font-bold mb-4">Our Social Media handles</h3>
+    <div class="flex justify-center space-x-4">
+      <a href="https://www.facebook.com/share/1RzS1EuaxP/"><i class="fa-brands fa-square-facebook fa-bounce text-4xl" id="icon"></i></a>
+      <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2FCreativesprinklesbyben&h=AT1YfxKzTUdKR2__AE2OIQ7F7tDyoXWBovTZ4QVSSoQI3Qk-0xRYHisBLK2xVwx9kS-LlIaCJLsvqfvNVvs3hmOfT_nZ91Pr3LAF0rwR6vRa-31kT4dtYadncp24qCwvfjURf06CbLyJQtRJefJ8"><i class="fa-brands fa-square-instagram text-4xl fa-bounce" id="icon"></i></a>
+   <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fyoutube.com%2F%40Creativesprinklesbyben&h=AT2T4I0j-3-K735mFdXZWNkh3k1xMMqvtVOvoYXbghVRUwVOaaJEjHCvonPN7dBJGpzAsCTanuGGB1ghZAIRb_RpFpDkte_sd51Ws727Agn4eblDd6sQ_bNxfLpL5TlOKplrMnU11HzrI496RF5Q"><i class="fa-brands fa-square-youtube text-4xl fa-bounce" id="icon"></i></a>
+    </div>
+</section>
+
+<!--FEEDBACK SECTION-->
+<section class="text-center py-10">
+  <p class="text-lg mb-4">
+    Did you experience any issues while using this website?
+  </p>
+
+  <button
+    id="feedbackBtn"
+    class="px-6 py-3 bg-black bg-opacity-40 rounded-lg hover:bg-opacity-60 transition"
+  >
+    Give Feedback
+  </button>
+</section>
+
+  <!-- FOOTER -->
+  <footer class="bg-opacity-40 p-5 text-sm">
+    © 2025 Creative sprinkles by ben. All Rights Reserved.
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
