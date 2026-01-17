@@ -26,7 +26,11 @@
 body {
     font: "tinos-regular", serif;
 
-  background: linear-gradient(to bottom, #5B147F 40%, #FF009C 60%);
+  background: linear-gradient(
+  180deg,
+  #E8DCCB 0%,
+  #F3ECE2 50%,
+  #FAF8F4 100%);
 
 }    
 #icon {
