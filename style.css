@@ -25,7 +25,7 @@
 /* Rainbow animated background */
 body {
     font: "tinos-regular", serif;
-
+color: black;
   background: linear-gradient(
   180deg,
   #E8DCCB 0%,
